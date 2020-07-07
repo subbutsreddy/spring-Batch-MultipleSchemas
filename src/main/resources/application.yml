@@ -1,0 +1,17 @@
+spring:
+  server:
+    port:3087
+  user:
+    datasource:
+      jdbcUrl: jdbc:postgresql://localhost:5432/finflowz?searchpath=finflowz_psg
+      username: finflowz_psg
+      password: finflowz_psg
+      driver-class-name: org.postgresql.Driver
+  book:
+    datasource:
+      jdbcUrl: jdbc:postgresql://localhost:5432/finflowz?searchpath=finflowz_workflow
+      username: finflowz_workflow
+      password: finflowz_workflow
+      driver-class-name: org.postgresql.Driver
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration

@@ -1,0 +1,18 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.profinch.finflowz.config.AccountDBConfig",
+      "name": "spring.account.datasource",
+      "sourceMethod": "dataSource()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.profinch.finflowz.config.UserDBConfig",
+      "name": "spring.user.datasource",
+      "sourceMethod": "dataSource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}
